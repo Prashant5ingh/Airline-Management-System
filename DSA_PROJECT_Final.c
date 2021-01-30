@@ -9,8 +9,8 @@ int Main_Menu();
 int Login();
 
 
-char password[20]={"abc"} ;
-char username[15]={"abc"};
+char password[20];
+char username[15];
 
 struct Airline_data{
 int Flight_no;
@@ -312,8 +312,8 @@ int n=1;
 }while(password[p-1]!='\r');
 password[p-1]='\0';
     
- if(strcmp(username,"abc")==0){
-	if(strcmp(password,"cba")==0){
+ if(strcmp(username,"prime")==0){
+	if(strcmp(password,"github")==0){
 
 	printf("\n\n\t\t\t:-) Login Successful :-)\n\n");
 
